@@ -4,11 +4,15 @@
 * 1
 * 2
 * 3
+
 ###Style
-*Bold* _italic_ **both** =boh= ==boh2==
+*italic1* _italic_ __bold__ ___both___
+
 ###Code
-   this is code
-   this is an other line of code
-* line
-  line2
-     code
+     this is code
+     this is an other line of code
+   
+* line  
+  line2  
+
+      code
