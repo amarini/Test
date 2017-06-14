@@ -8,4 +8,5 @@ install:
   - HOME=`pwd`
   - touch ~/.bashrc
   - . ~/.bashrc
+  - touch configure
 compiler: g++
