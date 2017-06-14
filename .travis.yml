@@ -1,0 +1,13 @@
+language: c++
+sudo: enabled
+dist: trusty
+install:
+  - wget https://root.cern.ch/download/root_v6.06.06.Linux-ubuntu14-x86_64-gcc4.8.tar.gz
+  - tar -xzf root_v6.06.06.Linux-ubuntu14-x86_64-gcc4.8.tar.gz
+  - . root/bin/thisroot.sh
+  - HOME=`pwd`
+  - touch ~/.bashrc
+  - . ~/.bashrc
+script:
+  g++ -o test test.cpp
+compiler: g++
