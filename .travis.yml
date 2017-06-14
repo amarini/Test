@@ -8,6 +8,4 @@ install:
   - HOME=`pwd`
   - touch ~/.bashrc
   - . ~/.bashrc
-script:
-  g++ -o test test.cpp
 compiler: g++
